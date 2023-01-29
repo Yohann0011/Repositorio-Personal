@@ -1,3 +1,5 @@
+#   LIBRERIAS UTILIZADAS
+
 from tkinter import *
 from tkinter import filedialog, simpledialog, messagebox
 from turtle import bgcolor
@@ -12,6 +14,10 @@ import pathlib
 import mediapipe as mp
 from time import sleep
 
+#   NOTAS
+#   - Para poder ejecutar el programa se debe descomprimir el archivo Mod_Front_Cara_2022.7z
+
+#   PROGRAMA
 os.system("cls")
 print('Cargando...')
 dataLocal = os.path.dirname(os.path.abspath(__file__))
